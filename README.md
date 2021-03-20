@@ -1,2 +1,8 @@
 # web-420
-RESTful APIs
+Class - RESTful APIs
+
+# contributors
+Professor Krasso - Bellevue University
+George Henderson - Bellevue University
+
+
