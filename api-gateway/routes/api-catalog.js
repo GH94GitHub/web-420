@@ -1,3 +1,10 @@
+/*=====================
+; Title: api-catalog
+; Author: George Henderson
+; Date 28 March 2021
+; Description: Registers routes
+;=====================*/
+
 var express = require('express');
 var router = express.Router();
 var auth_controller = require('../controller/authController');

@@ -1,3 +1,10 @@
+/*===================
+; Title: App
+; Author: George Henderson
+; Date: 28 March 2021
+; Description: Application logic
+;===================*/
+
 var createError = require('http-errors');
 var express = require('express');
 var mongoose = require('mongoose');
