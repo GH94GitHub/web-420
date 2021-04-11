@@ -12,3 +12,10 @@ var userSchema = new mongoose.Schema({
     email: String
 });
 module.exports = mongoose.model('User', userSchema);
+module.exports.add = function(user, callback) {
+    user.save(callback);
+}
+module.exports.getById = function(id, callback) {
+    var query = {_id:id};
+    User.findById(query, callback);
+}
