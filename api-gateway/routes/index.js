@@ -1,3 +1,9 @@
+/*=====================
+; Title: Index route
+; Author: George Henderson
+; Date 28 March 2021
+; Description: Registers a route
+;=====================*/
 var express = require('express');
 var router = express.Router();
 

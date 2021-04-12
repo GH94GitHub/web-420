@@ -1,5 +1,5 @@
 /*=====================
-; Title: api-catalog
+; Title: api-catalog routes
 ; Author: George Henderson
 ; Date 28 March 2021
 ; Description: Registers routes
