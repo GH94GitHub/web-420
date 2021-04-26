@@ -11,11 +11,18 @@ var userSchema = new mongoose.Schema({
     password: String,
     email: String
 });
-module.exports = mongoose.model('User', userSchema);
+var User  = mongoose.model('User', userSchema);
+
+module.exports = User;
+
 module.exports.add = function(user, callback) {
     user.save(callback);
 }
 module.exports.getById = function(id, callback) {
-    var query = {_id:id};
+    var query = {_id : id};
     User.findById(query, callback);
+}
+module.exports.getOne = (e, callback) => {
+    var query = {email: e};
+    User.findOne(query, callback);
 }
